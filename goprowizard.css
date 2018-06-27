@@ -1,0 +1,146 @@
+body {
+	font-size: 140%;
+}
+
+#gopro-container {
+	height: 80vh;
+}
+
+#gopro-device-info {
+	display: flex;
+	align-items: center;
+}
+
+#gopro-device-info img {
+	width: 200px;
+	vertical-align: middle;
+}
+
+#gopro-device-info div:nth-child(1) {
+	font-size: 130%;
+}
+
+#gopro-device-info div:not(:nth-child(1)) {
+	font-size: 90%;
+}
+
+.goprolist {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+.goprolist li {
+	padding: 0em;
+	background-color: #EFEFEF;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2px;
+/*
+	border-top-right-radius: 24px;
+	border-bottom-right-radius: 24px;
+	border-right: 4px solid #00AADD;
+*/
+	border-left: 4px solid #00AADD;
+	border-bottom: 1px solid #00AADD;
+}
+
+.goprolist .goprolist-name {
+	padding-left: 1em;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+.goprolist .goprolist-value {
+	margin-right: 1em;
+	background-color: #C6C6C6;
+	min-width: 200px;
+	text-align: right;
+	border-radius: 14px;
+	padding: 0.6em;
+}
+
+.goprolist .goprolist-setting-value {
+	margin-right: 1em;
+	border-radius: 14px;
+	padding: 0.6em;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+}
+
+.goprolist .goprolist-setting-value select {
+	min-width: 200px;
+}
+
+.goprolist .goprolist-setting-value .gopro-statusicon {
+	margin-right: 1em;
+}
+
+.gopro-undoicon {
+	cursor: pointer;
+}
+
+.inactive {
+	opacity: 0.6;
+}
+
+.goprolist .goprolist-section {
+	padding: 12px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.gopro-statusicon {
+	width: 26px;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+.gopro-date span {
+	padding: 1em;
+}
+
+.gopro-thumbnail {
+	border: 1px solid #000000;
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.gopro-thumbnail img {
+	height: 120px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gopro-thumbnail div {
+	background-color: #EFEFEF;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#tabs {
+	max-width: 800px;
+	display: block;
+	overflow-x: auto;
+	overflow-y: scroll;
+	height: 100%;
+}
+
+#tabs div {
+	padding: 0px;
+	margin-right: 6px;
+}

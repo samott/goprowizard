@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="jquery-3.3.1.min.js" language="javascript"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js" language="javascript"></script>
+	<script src="goprowizard.js" language="javascript"></script>
+	<script language="javascript">
+		$(document).ready(function() {
+			$('#tabs').tabs();
+			GoProWizard.init();
+		});
+	</script>
+	<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css" type="text/css">
+	<link rel="stylesheet" href="goprowizard.css" type="text/css">
+</head>
+<body>
+
+<div id="gopro-container">
+
+<div id="gopro-device-info">
+	<img />
+	<span></span>
+</div>
+ 
+<div id="tabs">
+	<ul>
+		<li><a href="#status-tab">Status</a></li>
+		<li><a href="#settings-tab">Settings</a></li>
+		<li><a href="#media-tab">Media</a></li>
+	</ul>
+
+	<div id="status-tab">
+	</div>
+
+	<div id="settings-tab">
+	</div>
+
+	<div id="media-tab">
+	</div>
+</div>
+
+</div>
+ 
+</body>
+</html>
